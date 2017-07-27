@@ -1,0 +1,85 @@
+header {list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: black
+}
+header li{
+	float:left;
+}
+ 
+header li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+header li a:hover{
+	background-color: red;
+}
+.About img{
+	float:left;
+	margin:10px;
+	padding:5px;
+	border:10px;
+}
+
+div.gallery{
+	border: 2px solid white;
+}
+div.gallery:hover{
+	border:2px solid red;
+}
+div.gallery img{
+	padding 100%;
+	height:auto;
+}
+div.desc{
+	padding:15px;
+	text-align:center;
+}
+*{
+	box-sizing:border-box;
+}
+.responsive{
+	padding:0 6px;
+	float:left;
+	width:25%;
+}
+@media only screen and (max-width:500px){
+	.responsive{width:50%;
+		margin: 6px 0;
+	}
+
+}
+@media only screen and (max-width:700px){
+	.resposive{
+		width:100%;
+	}
+	
+.contact textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.contact input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.bad {
+	background-color:red;
+	border: none;
+	color:white;
+	padding:16px 32px;
+	text-decoration: none;
+	margin:4px 2px;
+	cursor:pointer;
+}

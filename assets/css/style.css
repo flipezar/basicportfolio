@@ -1,6 +1,18 @@
+body{
+	margin-bottom:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 150%;
+	color:#333;
+	background: #efeee7;
+
+}
+
+
+
 header {list-style-type:none;
-margin:0;
-padding:0;
+margin-bottom: 30px;
+padding:30px;
 overflow:hidden;
 background-color: black
 }
@@ -15,16 +27,79 @@ header li a{
 	padding:14px 16px;
 	text-decoration:none;
 }
-header li a:hover{
-	background-color: red;
-}
+
+
 .About img{
 	float:left;
 	margin:10px;
 	padding:5px;
 	border:10px;
 }
+.About{
+	float: left;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	border-width: 10px 10px 10px 10px;
+	border-style: solid;
+	overflow: hidden;
+	width: 60%;
+}
 
+.container{
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin-left:150px;
+	border-style :solid;
+	border-width: 20px 20px 20px 20px;
+	overflow: hidden;
+	width:100%;
+}
+
+#pic{
+	float:left;
+}
+#text1{
+	float:left;
+}
+#text2{
+	float:left;
+}
+.aside{
+
+	
+	float:left;
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: red;
+
+}
+#pic1{
+	float:left;
+	margin-left:40px;
+	margin-top:80px;
+}
+#pic2{
+	float:left;
+	margin-top:80px;
+}
+#pic3{
+	float:left;
+	margin-top:80px;
+
+}
+footer{
+	text-align: center;
+	padding: 25px;
+	background-color:black;
+	overflow: hidden;
+}
+/*
 div.gallery{
 	border: 2px solid white;
 }
@@ -57,29 +132,59 @@ div.desc{
 	.resposive{
 		width:100%;
 	}
-	
-.contact textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
+	*/
+
+
+	.later{
+    	padding-right: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
+		padding-top: 25px;
+		margin-left:200px;
+		border-style:solid;
+		border-width: 20px 20px 20px 20px;
+		overflow: auto;
+		width:90%;
+	}
+	.contact{
+		width:60%;
+		border-width: 20px 20px 20px 20px;
+		border-style: solid;
+		overflow: hidden;
+		float: left;
+		margin-left:100px;
+		overflow: auto;
+	}
+
+	.contact textarea {
+    	width: 100%;
+    	height: 150px;
+    	padding: 12px 20px;
+    	box-sizing: border-box;
+    	border: 2px solid #ccc;
+   	    border-radius: 4px;
+   	 	background-color: #f8f8f8;
+    	resize: none;
 }
-.contact input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+	.contact input[type=text] {
+    	width: 100%;
+    	padding: 12px 20px;
+    	margin: 8px 0;
+    	box-sizing: border-box;
 }
-.bad {
-	background-color:red;
-	border: none;
-	color:white;
-	padding:16px 32px;
-	text-decoration: none;
-	margin:4px 2px;
-	cursor:pointer;
+	.bad {
+		background-color:red;
+		border: none;
+		color:white;
+		padding:16px 32px;
+		text-decoration: none;
+		margin:4px 2px;
+		cursor:pointer;
+}
+
+	footer{
+	text-align: center;
+	padding: 25px;
+	background-color:black;
+	overflow: auto;
 }

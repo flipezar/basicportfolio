@@ -1,162 +1,206 @@
-body{
-	margin-bottom:20px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 15px;
-	line-height: 150%;
-	color:#333;
-	background: #efeee7;
+	body{
+		margin-bottom:20px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 15px;
+		line-height: 150%;
+		color:#333;
+		background: #efeee7;
 
 }
 
 
+	header {
+		list-style-type:none;
+		margin-bottom: 30px;
+		padding:30px;
+		overflow:hidden;
+		background-color: black
 
-header {list-style-type:none;
-margin-bottom: 30px;
-padding:30px;
-overflow:hidden;
-background-color: black
 }
-header li{
-	float:left;
+	header li{
+		float:left;
 }
  
-header li a{
-	display:block;
-	color:white;
-	text-align:center;
-	padding:14px 16px;
-	text-decoration:none;
+	header li a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
 }
 
-
-.About img{
-	float:left;
-	margin:10px;
-	padding:5px;
-	border:10px;
-}
-.About{
-	float: left;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 25px;
-	border-width: 10px 10px 10px 10px;
-	border-style: solid;
-	overflow: hidden;
-	width: 60%;
+.mtst{ 
+	font-size:25px; 
 }
 
-.container{
-	padding-right: 25px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	padding-top: 25px;
-	margin-left:150px;
-	border-style :solid;
-	border-width: 20px 20px 20px 20px;
-	overflow: hidden;
-	width:100%;
+	.About img{
+		float:left;
+		margin:10px;
+		padding:5px;
+		border:10px;
 }
 
-#pic{
-	float:left;
+	.About{
+		float: left;
+		padding-bottom: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 25px;
+		border-width: 10px 10px 10px 10px;
+		border-style: solid;
+		overflow: hidden;
+		width: 60%;
 }
-#text1{
-	float:left;
-}
-#text2{
-	float:left;
-}
-.aside{
 
-	
-	float:left;
-	margin: 100px;
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	background-color: red;
-
-}
-#pic1{
-	float:left;
-	margin-left:40px;
-	margin-top:80px;
-}
-#pic2{
-	float:left;
-	margin-top:80px;
-}
-#pic3{
-	float:left;
-	margin-top:80px;
-
-}
-footer{
-	text-align: center;
-	padding: 25px;
-	background-color:black;
-	overflow: hidden;
-}
-/*
-div.gallery{
-	border: 2px solid white;
-}
-div.gallery:hover{
-	border:2px solid red;
-}
-div.gallery img{
-	padding 100%;
-	height:auto;
-}
-div.desc{
-	padding:15px;
-	text-align:center;
-}
-*{
-	box-sizing:border-box;
-}
-.responsive{
-	padding:0 6px;
-	float:left;
-	width:25%;
-}
-@media only screen and (max-width:500px){
-	.responsive{width:50%;
-		margin: 6px 0;
-	}
-
-}
-@media only screen and (max-width:700px){
-	.resposive{
-		width:100%;
-	}
-	*/
-
-
-	.later{
-    	padding-right: 25px;
+	.container{
+		padding-right: 25px;
 		padding-bottom: 25px;
 		padding-left: 25px;
 		padding-top: 25px;
-		margin-left:200px;
-		border-style:solid;
+		margin-left:150px;
+		border-style :solid;
 		border-width: 20px 20px 20px 20px;
-		overflow: auto;
-		width:90%;
-	}
-	.contact{
-		width:60%;
-		border-width: 20px 20px 20px 20px;
-		border-style: solid;
 		overflow: hidden;
-		float: left;
-		margin-left:100px;
-		overflow: auto;
-	}
+		width:100%;
+}
 
-	.contact textarea {
+	#pic{
+		float:left;
+}
+	#text1{
+		float:left;
+}
+	#text2{
+		float:left;
+}
+	.aside{
+		float:left;
+		margin: 100px;
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		background-color: red;
+		position: relative;
+
+}
+
+.test{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:10%;
+		width: 194px;
+		font-size:15px;
+		text-align: center;
+		overflow: auto;
+}
+
+
+
+#pic1{
+		float:left;
+		margin-left:40px;
+		margin-top:80px;
+}
+#pic2{
+		float:left;
+		margin-top:80px;
+}
+#pic3{
+		float:left;
+		margin-top:80px;
+
+}
+footer{
+		text-align: center;
+		padding: 25px;
+		background-color:black;
+		overflow: hidden;
+}
+
+	.gallery1{
+		position: relative;
+		float:left;
+}
+	.desc1{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width: 220px;
+		font-size:15px;
+		text-align: center;
+		overflow: auto;
+} 
+
+
+
+	.gallery2{
+		position: relative;
+		float: left;
+	} 
+
+	.desc2{
+		font-size:15px;
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width:220px;
+		overflow: auto;
+		text-align: center;
+}
+
+	.gallery3 {
+		position: relative;
+		float: left;
+}
+
+	.desc3{
+		border:3px;
+		border-style:solid;
+		position:absolute;
+		top:70%;
+		width:220px;
+		font-size:15px;
+		text-align:center;
+
+	} 
+
+	.gallery4 {
+		position: relative;
+		float: left;
+
+} 
+
+	.desc4{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width:220px;
+		font-size:15px;
+		text-align: center;
+}
+	.gallery5{
+		position: relative;
+		float: left;
+
+}
+
+	.desc5{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		font-size:15px;
+		top:70%;
+		width:220px;
+		text-align: center;
+
+}
+
+
+	.about textarea {
     	width: 100%;
     	height: 150px;
     	padding: 12px 20px;
@@ -165,12 +209,14 @@ div.desc{
    	    border-radius: 4px;
    	 	background-color: #f8f8f8;
     	resize: none;
+    	float:left;
 }
-	.contact input[type=text] {
+	.about input[type=text] {
     	width: 100%;
     	padding: 12px 20px;
     	margin: 8px 0;
     	box-sizing: border-box;
+    	float:left;
 }
 	.bad {
 		background-color:red;
@@ -180,11 +226,40 @@ div.desc{
 		text-decoration: none;
 		margin:4px 2px;
 		cursor:pointer;
+		overflow: hidden;
+		float: left;
 }
+	#line1{
+		float:left;
+}
+	#line2{
+		float:left;
+}
+	#line3{
+		float:left;
+}
+/*
+@media only screen and (max-width: 980px) and (min-width:768px),(min-width: 640px){
 
-	footer{
-	text-align: center;
-	padding: 25px;
-	background-color:black;
-	overflow: auto;
+	body{
+background-color:yellow;
+	}
+	header{
+	background-color:lightblue;
+	}
+	header li{
+	
+	}
+	header li a{
+	
+	}
+	.mtst{
+	
+	}
+	.about img{
+	
+	}
+	.about{}
+	.con
 }
+	*?
